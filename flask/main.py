@@ -45,4 +45,4 @@ def download_file():
     return send_file(result_path, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

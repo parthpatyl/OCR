@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='preview_style.css') }}">
+    <title>Text Preview</title>
+</head>
+<body>
+        <h1>Extracted Text Preview</h1>
+        <a name="b1" href="/download?result_path={{ result_path }}">Download Output File</a>
+        <a href="/">Upload Another File</a>
+        <br>
+    <div name="clipboard" style="white-space: pre-wrap;">{{ text }}</div>
+    <br>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* Add a background image to the entire page */
+body {
+    background-image: url("bg.jpg"); /* Replace with your image file path */
+    background-size: cover; /* Scale image to cover the entire page */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+    text-align: center;
+    height: fit-content; /* Full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Set default text color to white for contrast */
+}
+
+/* Styling for the preview container */
+div {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: block;
+    background-color: rgba(75, 75, 75, 0.296); /* Semi-transparent black background for better readability */
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%; /* Limit the width of the container */
+    margin: 20px auto;
+    overflow-y: auto; /* Allow scrolling for long text */
+    max-height: 80vh; /* Prevent the container from exceeding viewport height */
+}
+
+/* Styling for buttons */
+button, a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease-in;
+}
+
+button:hover, a:hover {
+    background-color: #0056b3;
+}

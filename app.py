@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, send_file
 import os
-from handwritingOCR import converter  # Import the updated converter module
+import converter  # Import the updated converter module
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
@@ -43,6 +43,7 @@ def download_file():
     if not result_path or not os.path.exists(result_path):
         return "File not found", 404
     return send_file(result_path, as_attachment=True)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

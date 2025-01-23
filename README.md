@@ -94,7 +94,7 @@ If you have any questions or suggestions, feel free to reach out:
 ---
 
 ### **Demo**
-🚀 [Live Demo](Coming Soon..)
+🚀 [Live Demo] [ocrlive](https://prth.pythonanywhere.com/)
 
 Enjoy using **Handwriting OCR**! ✨
 ```
